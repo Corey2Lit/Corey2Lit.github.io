@@ -1,0 +1,47 @@
+body{
+    background:#808080;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:center;
+}
+
+.assignments{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.assignment{
+    width:21%;
+    padding:20px 10px;
+    margin: 10px;
+    background-color:#3C6AA6;
+    border-radius: 10px;
+}
+.assignment img{
+    width: 200px;
+    margin: 10px;
+    border: 4px dashed whitesmoke;
+    display:block;
+    margin:auto;
+}
+.assignment img:hover{
+    border: 4px dashed #7FFF00;
+}
+
+h1{
+    color: #D5EDF2;
+    text-align: center;
+
+}
+h1:hover{
+    color: #7FFF00;
+}
+h2{
+    text-align:center;
+}
+a {
+    text-decoration:none;
+    color:#D5EDF2;
+}
+a :hover{
+    color: #7FFF00;
+}
